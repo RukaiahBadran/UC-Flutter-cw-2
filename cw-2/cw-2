@@ -1,1 +1,19 @@
+void main(){
+
+    double hight= 1.5;
+    double weight= 79.5;
+
+    var BMI= weight / (hight * hight);
+    print("$BMI");
+  
+    if (BMI < 18.6)
+        print("Underwieght");
+     
+     else if (BMI < 24.9 && BMI > 18.6)
+      print("Normal");
+     
+     else 
+        print("Overweight");
+     
+}
 
